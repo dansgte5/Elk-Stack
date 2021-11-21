@@ -111,8 +111,8 @@ SSH into the control node and follow the steps below:
 - line 1105 'hosts: ["10.1.0.5:9200"]'
 - line 1806 'host: "[10.1.0.4:5601"]'
 - Run the playbook [Filebeat.yml](https://github.com/dansgte5/Elk-Stack/blob/main/Ansible/Filebeat.yml) located in the /etc/ansible/roles/ directory inside the ansible container, then navigate to Kibana using your web browser by inputing the URL http://40.77.107.185.133:/app/kibana which would be the ELK-Server public IP, specifying port '5601' to check that the installation worked as expected.
-- Copy the Metricbeat.cfg file to /etc/ansible/ directory inside the ansible container.
-- Update the Metricbeat.cfg file in the /etc/ansible/ to include the Elk-Server's private IP on lines 62 and 95 as follows:
+- Copy the [Metricbeat.cfg](https://github.com/dansgte5/Elk-Stack/blob/main/Linux/Metricbeat.cfg) file to /etc/ansible/ directory inside the ansible container.
+- Update the [Metricbeat.cfg](https://github.com/dansgte5/Elk-Stack/blob/main/Linux/Metricbeat.cfg) file in the /etc/ansible/ to include the Elk-Server's private IP on lines 62 and 95 as follows:
 - line 62 'host: "[10.1.0.5:5601"]'
 - line 95 'hosts: ["10.1.0.5:9200"]'
 
