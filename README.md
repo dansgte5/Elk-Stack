@@ -118,7 +118,7 @@ SSH into the control node and follow the steps below:
 
 Run the playbook, Metricbeat.yml inside the /etc/ansible/roles directory, and navigate to Kibana on your web browser using the URL http:40.77.107.185//:/app/kibana ELK-Server public IP, specifying port '5601' to check that the installation worked as expected.
 _TODO: Answer the following questions to fill in the blanks:_
-- /Users/danielnordick/Desktop/Elk-Stack/Images/Kibana.png
+[Kibana.png](https://github.com/dansgte5/Elk-Stack/blob/main/Images/Kibana.png)
 - /Users/danielnordick/Desktop/Elk-Stack/Images/Filebeat.png
 - /Users/danielnordick/Desktop/Elk-Stack/Images/Metricbeat.png
 
