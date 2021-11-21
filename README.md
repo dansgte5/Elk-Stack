@@ -21,7 +21,7 @@ This document contains the following details:
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
-Load balancing ensures that the application will be highly _____, in addition to restricting _____ to the network.
+Load balancing ensures that the application will be highly redundant, in addition to restricting traffic to the network.
 - DDoS attacks
 - Protection from emerging threats
 - Authenticates users for access
@@ -47,10 +47,10 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 
 The machines on the internal network are not exposed to the public Internet. 
 
-Only the __Jump Box__ machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
+Only the Jump Box Provisioner machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 24.140.176.26
 
-Machines within the network can only be accessed by _____.
+Machines within the network can only be accessed by Jumpbox Provisioner.
 The Jumpbox-Provisioner is the only machine I allowed access to the ELK Server. The Private IP of the Jumpbox-Provisioner is used to access the machines within the nextwork.
 
 A summary of the access policies in place can be found in the table below.
