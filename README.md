@@ -122,4 +122,6 @@ Run the playbook, Metricbeat.yml inside the /etc/ansible/roles directory, and na
 
 - [Filebeat.png](https://github.com/dansgte5/Elk-Stack/blob/main/Images/Filebeat.png)
 
+- [Metricbeat.png](https://github.com/dansgte5/Elk-Stack/blob/main/Images/Metricbeat.png)
+
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
