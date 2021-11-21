@@ -28,7 +28,7 @@ Load balancing ensures that the application will be highly redundant, in additio
 - Simplifies PCI compliance In addition to the added layer of security provided by the Load Balancer, the Jump Box:
 - Acts as a "bridge" between two trusted networks and is treated as a single entryway to a server group
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the data and system logs.
 - Filebeat: Watches and records log files from locations specified and forwards them to Logstash for indexing.
 - Metricbeat: Monitors and collects data such as system CPU and memory to load in a docker environment.
 
@@ -78,7 +78,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-/Users/danielnordick/Desktop/Elk-Stack/Images/Elk Stack Docker Image.png
+[Elk Server Docker Image](/Users/danielnordick/Desktop/Elk-Stack/Images/Elk Stack Docker Image.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
