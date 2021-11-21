@@ -98,7 +98,7 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Nano into hosts file in order to run the playbooks to run on specified machines. There you are going to locate webservers, updating by entering the web-vm's IP address as follows:
+- Nano into [hosts](https://github.com/dansgte5/Elk-Stack/blob/main/Ansible/hosts.yml)file in order to run the playbooks to run on specified machines. There you are going to locate webservers, updating by entering the web-vm's IP address as follows:
 - 10.0.0.5 ansible_python_interpreter=/usr/bin/python3
 - 10.0.0.6 ansible_python_interpreter=/usr/bin/python3
 - 10.0.0.7 ansible_python_interpreter=/usr/bin/python3
